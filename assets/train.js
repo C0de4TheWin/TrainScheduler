@@ -50,6 +50,12 @@ $("#first-train").val("");
 $("#frequency").val("");
 });
     
+
+    $('#removebutton-btn').click(function(){
+        $('input[type="text"]').val('');
+     });
+
+
     
 
     // Assumptions
